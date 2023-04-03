@@ -248,7 +248,7 @@ If we we can override a **built-in methods/operators** that we use in Python 3 a
 
 </aside>
 
-What can be done with inheritance?
+**What can be done with inheritance?**
 
 - Child receives all attributes/methods of parent
     - can then enhance itself with new attributes/methods
