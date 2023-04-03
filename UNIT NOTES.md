@@ -80,9 +80,9 @@ Common practice
 
 Use a setter and a getter in order to control how encapsulated code is set. For example, preventing others from changing passwords. 
 
-→ setter: sets how code is allowed to be accessed (by other parties)
+→ **setter**: sets how code is allowed to be accessed (by other parties)
 
-→ getter: retrieves a value
+→ **getter**: retrieves a value
 
 ```python
 class Student:
@@ -102,20 +102,17 @@ class Student:
 
 ## OVERRIDES & OVERLOADS
 
-Overriding = two methods w/ same method name and parameters
+**Overriding** = two methods w/ same method name and parameters
 
 - One method in parent class (see lesson 3), one in child class
 - allows child class to provide specific implementation for a method that exists in the parent class
 - can also override built-in magic methods OR base functions
     - eg. __init__, __str__
 
-Overloading = two methods in one class w/ same method name nut different parameters
+**Overloading** = two methods in one class w/ same method name not different parameters
+	❗ (does NOT exist in Python 3)
 
-(does NOT exist in Python 3)
-
-Polymorphism
-
-A method that can be used across different classes and object that is dependent on parameters
+**Polymorphism**: A method that can be used across different classes and object that is dependent on parameters
 
 **Ideas:**
 
