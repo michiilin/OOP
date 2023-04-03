@@ -31,13 +31,10 @@ Objects that can be iterated through like a sequence, such as:
 # OOP 2
 
 **Encapsulation** = Information hiding (restricting access to classes/object’s certain attributes and methods)
-
-	<aside>
+	
 	💡 Why? 
 	- Data protection
 	- Restricting certain methods (to be callable)
-
-	</aside>
 
 Note: in Python, not very possible to have “public” and “private” methods → use special system to hide attributes and methods with double underscore __ prefix
 
@@ -103,7 +100,7 @@ class Student:
     return self.__firstName
 ```
 
-## Overrides (and overloads)
+## OVERRIDES & OVERLOADS
 
 Overriding = two methods w/ same method name and parameters
 
@@ -231,11 +228,11 @@ If we we can override a **built-in methods/operators** that we use in Python 3 a
 
 # OOP 3
 
-## inheritance maowowoow 😽
+## INHERITANCE 😽
 
 ********************************inheritance:******************************** when object or class is based on another class; features are from a *parent class*
 
-### flaws of inheritance
+### FLAWS OF INHERITANCE
 
 → if parent class has a mistake, the child class will also be messed up
 
@@ -256,7 +253,7 @@ If we we can override a **built-in methods/operators** that we use in Python 3 a
     - can then enhance itself with new attributes/methods
 - A child can **OVERRIDE** attributes and methods for their own liking/speciality
 
-### single inheritance
+### SINGLE INHERITANCE
 
 ```python
 class ParentClassName:
@@ -273,7 +270,7 @@ class InheritanceClass(ParentClassName):
 		self.param2 = param2
 ```
 
-### parent class and inheritance class
+### PARENT CLASS AND INHERITANCE CLASS
 
 ```python
 #parent class
@@ -300,14 +297,14 @@ print(p.getName()) # Output: “Mr. Park”
 print(s.getStudentName(), “and” , s.getName()) # Output: “1234: Random Child and Random Child”
 ```
 
-### what is super()?
+### WHAT IS super()?
 
 built in method for classes to refer to their parent classes
 
 - prevents from doing ParentClass.method(self)
 - The self with self gets confusing
 
-### multiple inheritances
+### MULTIPLE INHERITANCES
 
 1) Multi-generational
 
@@ -319,7 +316,7 @@ Grandparent → Parent → Child
 
 3) Mixture of 1 and 2
 
-### polymorphism
+### POLYMORPHISM
 
 - a method that can be used across different classes and object that is dependent on its parameters
     - Different Classes (non-inherited) can have the same named methods (Simple) → Polymorphism
