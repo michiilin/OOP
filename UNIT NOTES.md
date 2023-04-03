@@ -239,10 +239,7 @@ If we we can override a **built-in methods/operators** that we use in Python 3 a
 - multiple inheritance (subclass inheriting the features of multiple parent classes)
 - multilevel inheritance (subclass inheriting from another subclass; eg. A → B → C)
 
-<aside>
-📢 inheritance can have a hierarchy(branching like a tree) or be like a hybrid(mixing all types of inheritance)
-
-</aside>
+	📢 inheritance can have a hierarchy(branching like a tree) or be like a hybrid(mixing all types of inheritance)
 
 **What can be done with inheritance?**
 
