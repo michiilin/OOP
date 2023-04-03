@@ -12,7 +12,7 @@
 
 **Object** = instance of class that can be used in a program
 
-	- Objects may have access to attributes and methods in that class.
+	 Objects may have access to attributes and methods in that class.
 
 ### iterable objects
 
