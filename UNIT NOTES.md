@@ -2,17 +2,17 @@
 
 ### OOP Overview
 
-Object Oriented Programming = programming paradigm that focuses on creation of custom classes for special objects
+**Object Oriented Programming** = programming paradigm that focuses on creation of custom classes for special objects
 
-Class = abstract description of new objects that can be made (contains attributes and methods)
+**Class** = abstract description of new objects that can be made (contains attributes and methods)
 
-Attributes = variables/data belonging to the class
+**Attributes** = variables/data belonging to the class
 
-Methods = functions the object can use/call for computation
+**Methods** = functions the object can use/call for computation
 
-Object = instance of class that can be used in a program
+**Object** = instance of class that can be used in a program
 
-Objects may have access to attributes and methods in that class.
+	- Objects may have access to attributes and methods in that class.
 
 ### iterable objects
 
