@@ -14,17 +14,19 @@
 
 	 Objects may have access to attributes and methods in that class.
 
-### iterable objects
+### ITERABLE OBJECTS
 
-Objects that can be iterated through like a sequence.
-
-eg. strings, lists, sets, dictionaries
+Objects that can be iterated through like a sequence, such as:
+* strings 
+* lists 
+* sets 
+* dictionaries
 
 → strings and lists are iterable!
 
-→ to access individual values without indexing = for loops
+→ to access individual values without indexing => for loops
 
-Note: The portion of the iterable object must be a sequence. Iterable doesn’t always mean indexable. 
+	❗ The portion of the iterable object must be a sequence. Iterable doesn’t always mean indexable. 
 
 # OOP 2
 
