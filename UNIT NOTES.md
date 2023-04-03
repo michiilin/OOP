@@ -1,6 +1,6 @@
 # OOP
 
-### OOP Overview
+### DEFINITIONS
 
 **Object Oriented Programming** = programming paradigm that focuses on creation of custom classes for special objects
 
@@ -28,14 +28,14 @@ Note: The portion of the iterable object must be a sequence. Iterable doesn’t 
 
 # OOP 2
 
-Encapsulation = Information hiding (restricting access to classes/object’s certain attributes and methods)
+**Encapsulation** = Information hiding (restricting access to classes/object’s certain attributes and methods)
 
-<aside>
-💡 Why? 
-- Data protection
-- Restricting certain methods (to be callable)
+	<aside>
+	💡 Why? 
+	- Data protection
+	- Restricting certain methods (to be callable)
 
-</aside>
+	</aside>
 
 Note: in Python, not very possible to have “public” and “private” methods → use special system to hide attributes and methods with double underscore __ prefix
 
